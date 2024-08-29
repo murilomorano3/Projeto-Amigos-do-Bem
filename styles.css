@@ -1,0 +1,33 @@
+@import url(header.css);
+@import url(detalhes.css);
+@import url(cards.css);
+
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Estilos do rodapé */
+footer {
+    background: #f8f9fa;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 10%;
+}
